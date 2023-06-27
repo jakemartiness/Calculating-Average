@@ -1,0 +1,20 @@
+def calculate_average(numbers):
+    """
+    Calculates the average of a list of numbers.
+    """
+    total = sum(numbers)
+    average = total / len(numbers)
+
+    return average
+
+
+def print_average(numbers):
+    """
+    Prints the average of a list of numbers.
+    """
+    avg = calculate_average(numbers)
+    print("Average:", avg)
+
+
+data = [2, 4, 6, 8, 10]
+print_average(data)
